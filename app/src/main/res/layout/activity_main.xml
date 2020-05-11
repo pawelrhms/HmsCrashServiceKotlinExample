@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_crash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crashApp"
+            android:padding="@dimen/margin_l" />
+
+        <Button
+            android:id="@+id/disable_crash_collection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crash_collection_disabled"
+            android:padding="@dimen/margin_l" />
+
+        <Button
+            android:id="@+id/enable_crash_collection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crash_collection_enabled"
+            android:padding="@dimen/margin_l" />
+</LinearLayout>
